@@ -1,4 +1,4 @@
-Mainly a readme file should include following sections:
+#Mainly a readme file should include following sections:
 
 Project Description
 Dependencies/Pre-requisites
