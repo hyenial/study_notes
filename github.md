@@ -5,7 +5,7 @@
             <li><a href="index.html" class="active">Git</a></li>
    </ul>
 
-   <h1>Udacity Git Commit Message Style Guide</h1>
+   <h1>General Git Commit Message Style Guide</h1>
 
    <section>
         <h2>Introduction</h2>
@@ -95,6 +95,7 @@ See also: #456, #789
 </pre>
         </article>
     </section>
+    <p> Referance: https://udacity.github.io/git-styleguide/ </p>
 </body>
 </html>
 
