@@ -80,9 +80,9 @@ change? Here's the place to explain them.
 
 Further paragraphs come after blank lines.
 
- - Bullet points are okay, too
+- Bullet points are okay, too
 
- - Typically a hyphen or asterisk is used for the bullet, preceded
+- Typically a hyphen or asterisk is used for the bullet, preceded
    by a single space, with blank lines in between, but conventions
    vary here
 
