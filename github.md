@@ -1,42 +1,39 @@
-    <nav>
-        <ul>
+   <ul>
             <li><a href="http://udacity.github.io/frontend-nanodegree-styleguide/index.html">HTML</a></li>
             <li><a href="http://udacity.github.io/frontend-nanodegree-styleguide/css.html">CSS</a></li>
             <li><a href="http://udacity.github.io/frontend-nanodegree-styleguide/javascript.html">JavaScript</a></li>
             <li><a href="index.html" class="active">Git</a></li>
-        </ul>
-    </nav>
+   </ul>
 
+   <h1>Udacity Git Commit Message Style Guide</h1>
 
-    <h1>Udacity Git Commit Message Style Guide</h1>
-
-    <section>
+   <section>
         <h2>Introduction</h2>
         <p>This style guide acts as the official guide to follow in your projects. Udacity evaluators will use this guide to grade your projects. There are many opinions on the "ideal" style in the world of development. Therefore, in order to reduce the confusion on what style students should follow during the course of their projects, we urge all students to refer to this style guide for their projects.</p>
     </section>
 
-    <section>
+   <section>
         <h2>Commit Messages</h2>
 
-        <article>
+  <article>
             <h3>Message Structure</h3>
             <p>A commit messages consists of three distinct parts separated by a blank line: the title, an optional body and an optional footer. The layout looks like this:</p>
 
-            <pre><code>type: Subject
+  <pre><code>type: Subject
 
 body
 
 footer</code></pre>
 
-            <p>The title consists of the type of the message and subject.</p>
+   <p>The title consists of the type of the message and subject.</p>
         </article>
 
-        <article>
+   <article>
             <h3>The Type</h3>
             <p>The type is contained within the title and can be one of these types:</p>
 
-            <ul>
-                <li><strong>feat:</strong> A new feature</li>
+   <ul>
+             <li><strong>feat:</strong> A new feature</li>
                 <li><strong>fix:</strong> A bug fix</li>
                 <li><strong>docs:</strong> Changes to documentation</li>
                 <li><strong>style:</strong> Formatting, missing semi colons, etc; no code change</li>
@@ -44,28 +41,28 @@ footer</code></pre>
                 <li><strong>test:</strong> Adding tests, refactoring test; no production code change</li>
                 <li><strong>chore:</strong> Updating build tasks, package manager configs, etc; no production code change</li>
             </ul>
-        </article>
+    </article>
 
-        <article>
+   <article>
             <h3>The Subject</h3>
             <p>Subjects should be no greater than 50 characters, should begin with a capital letter and do not end with a period.</p>
 
-            <p>Use an imperative tone to describe what a commit does, rather than what it did. For example, use <strong>change</strong>; not changed or changes.</p>
+   <p>Use an imperative tone to describe what a commit does, rather than what it did. For example, use <strong>change</strong>; not changed or changes.</p>
         </article>
 
-        <article>
+  <article>
             <h3>The Body</h3>
             <p>Not all commits are complex enough to warrant a body, therefore it is optional and only used when a commit requires a bit of explanation and context. Use the body to explain the <strong>what</strong> and <strong>why</strong> of a commit, not the how.</p>
 
-            <p>When writing a body, the blank line between the title and the body is required and you should limit the length of each line to no more than 72 characters.</p>
+   <p>When writing a body, the blank line between the title and the body is required and you should limit the length of each line to no more than 72 characters.</p>
         </article>
 
-        <article>
+   <article>
             <h3>The Footer</h3>
             <p>The footer is optional and is used to reference issue tracker IDs.</p>
         </article>
 
-        <article>
+   <article>
             <h3>Example Commit Message</h3>
             <pre><code>feat: Summarize changes in around 50 characters or less
 
